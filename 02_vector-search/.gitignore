@@ -1,1 +1,4 @@
 qdrant_storage/
+keys/
+.env
+*.env
