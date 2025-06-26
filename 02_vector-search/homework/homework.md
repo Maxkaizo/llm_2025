@@ -40,3 +40,38 @@ What's the document index with the highest similarity? (Indexing starts from 0):
 
 ## Q3. Solution
 
+* 1
+
+![alt text](image-2.png)
+
+
+# Q4. Ranking by cosine, version two
+
+Embed this field and compute the cosine between it and the query vector. What's the highest scoring document?
+
+* 0
+* 1
+* 2
+* 3
+* 4
+
+## Q4. Solution
+
+* 0
+
+![alt text](image-3.png)
+
+# Q5. Selecting the embedding model
+
+Now let's select a smaller embedding model. What's the smallest dimensionality for models in fastembed?
+
+* 128
+* 256
+* 384
+* 512
+
+## Q5. Solution
+
+* 384
+
+![alt text](image-4.png)
