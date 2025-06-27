@@ -75,3 +75,18 @@ Now let's select a smaller embedding model. What's the smallest dimensionality f
 * 384
 
 ![alt text](image-4.png)
+
+# Q6. Indexing with qdrant (2 points)
+
+What's the highest score in the results? (The score for the first returned record):
+
+* 0.97
+* 0.87
+* 0.77
+* 0.67
+
+## Q6. Solution 
+
+* 0.87
+
+![alt text](image-5.png)
