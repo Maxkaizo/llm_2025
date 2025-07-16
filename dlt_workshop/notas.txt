@@ -1,0 +1,7 @@
+Este workshop lo corrí en Colab, ya que Cognee, requiere un entorno con python menor a 3.12 y ya no quise crear más entornos en mi equipo local
+
+La libreta se llama: cognee_taxi_dataset_demo.ipynb
+
+y la documentación de cognee la podemos encontrar en: 
+- https://pypi.org/project/cognee/
+- https://docs.cognee.ai/
