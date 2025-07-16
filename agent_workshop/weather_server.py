@@ -1,7 +1,12 @@
 # weather_server.py
+import random
 from fastmcp import FastMCP
 
 mcp = FastMCP("Demo 🚀")
+
+known_weather_data = {
+    'berlin': 20.0
+}
 
 @mcp.tool
 def get_weather(city: str) -> float:
@@ -20,6 +25,22 @@ def get_weather(city: str) -> float:
         return known_weather_data[city]
 
     return round(random.uniform(-5, 35), 1)
+
+@mcp.tool
+def set_weather(city: str, temp: float) -> str:
+    """
+    Sets the temperature for a specified city.
+
+    Parameters:
+        city (str): The name of the city for which to set the weather data.
+        temp (float): The temperature to associate with the city.
+
+    Returns:
+        str: A confirmation string 'OK' indicating successful update.
+    """
+    city = city.strip().lower()
+    known_weather_data[city] = temp
+    return 'OK'
 
 if __name__ == "__main__":
     mcp.run()
