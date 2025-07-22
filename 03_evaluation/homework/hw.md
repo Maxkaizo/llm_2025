@@ -90,4 +90,8 @@ What's the average Rouge-1 F1?
 
 ### Q6. Solution
 
+- 0.35
+
+![alt text](image-5.png)
+
 
