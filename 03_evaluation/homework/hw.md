@@ -63,4 +63,31 @@ What's the MRR?
 
 ![alt text](image-3.png)
 
+## Q5. Cosine simiarity
+
+What's the average cosine?
+
+- 0.64
+- 0.74
+- 0.84
+- 0.94
+
+### Q5. Solution
+
+- 0.84
+
+![alt text](image-4.png)
+
+## Q6. Rouge
+
+Let's compute it for the pairs in the entire dataframe.
+What's the average Rouge-1 F1?
+
+- 0.25
+- 0.35
+- 0.45
+- 0.55
+
+### Q6. Solution
+
 
