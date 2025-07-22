@@ -3,3 +3,4 @@ keys/
 *.env
 *.csv
 data/
+*/qdrant_storage/

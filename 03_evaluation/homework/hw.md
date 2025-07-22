@@ -30,4 +30,37 @@ Evaluate this seach method. What's MRR for it?
 
 ![alt text](image-1.png)
 
+## Q3. Vector search for question and answer
+
+Using the same pipeline (`min_df=3` for TF-IDF vectorizer and `n_components=128` for SVD), evaluate the performance of this
+approach
+
+What's the hitrate?
+
+- 0.62
+- 0.72
+- 0.82
+- 0.92
+
+### Q3. Solution
+
+- 0.82
+
+![alt text](image-2.png)
+
+## Q4. Qdrant
+
+What's the MRR?
+
+- 0.65
+- 0.75
+- 0.85
+- 0.95
+
+### Q4. Solution
+
+- 0.85
+
+![alt text](image-3.png)
+
 
