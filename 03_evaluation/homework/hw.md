@@ -1,0 +1,33 @@
+# Homework
+
+## Q1. Minsearch text
+
+What's the hitrate for this approach?
+
+* 0.64
+* 0.74
+* 0.84
+* 0.94
+
+### Q1. Solution
+
+* 0.84
+
+![alt text](image.png)
+
+## Q2. Vector search for question
+
+Evaluate this seach method. What's MRR for it?
+
+- 0.25
+- 0.35
+- 0.45
+- 0.55
+
+### Q2. Solution
+
+- 0.35
+
+![alt text](image-1.png)
+
+
